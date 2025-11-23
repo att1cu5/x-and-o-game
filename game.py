@@ -1,6 +1,8 @@
 import numpy as np
 # Online Python compiler (interpreter) to run Python online.
 # Write Python 3 code in this online editor and run it.
+scoreO=0
+scoreX=0
 turnorder=int(input("which player should go first X or O type 1 for X and 2 for O: "))
 
 matrixAns_np=np.array([[0, 0, 0],
@@ -2335,3 +2337,44 @@ if(matrixAns_np[2,2]==1):
         print(" X ")
 elif(matrixAns_np[2,2]==2):
         print(" O ")
+if 5 in Oturns:
+    if 2 in Oturns:
+        if 8 in Oturns:
+            print("O gains one point")
+            scoreO+=1
+if 5 in Oturns:
+    if 3 in Oturns:
+        if 7 in Oturns:
+            print("O gains one point")
+            scoreO+=1   
+if 5 in Oturns:
+    if 1 in Oturns:
+        if 9 in Oturns:
+            print("O gains one point")
+            scoreO+=1 
+if 5 in Oturns:
+    if 4 in Oturns:
+        if 6 in Oturns:
+            print("O gains one point")
+            scoreO+=1
+if 5 in Xturns:
+    if 2 in Xturns:
+        if 8 in Xturns:
+            print("X gains one point")
+            scoreX+=1
+if 5 in Xturns:
+    if 3 in Xturns:
+        if 7 in Xturns:
+            print("X gains one point")
+            scoreX+=1   
+if 5 in Xturns:
+    if 1 in Xturns:
+        if 9 in Xturns:
+            print("X gains one point")
+            scoreX+=1 
+if 5 in Xturns:
+    if 4 in Xturns:
+        if 6 in Xturns:
+            print("X gains one point")
+            scoreX+=1
+            
