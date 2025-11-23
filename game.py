@@ -1,6 +1,8 @@
+
 # Online Python compiler (interpreter) to run Python online.
 # Write Python 3 code in this online editor and run it.
 turnorder=int(input("which player should go first X or O type 1 for X and 2 for O: "))
+i=0
 a=0
 g=0
 h=0
@@ -1876,3 +1878,117 @@ if(userone==8 and usertwo==9):
                 print("- | - | -")
                 print("---------")
                 print("- | X | O")
+if(turnorder==1):
+    print("last turn X")
+    i=45-a-b-c-d-e-f-g-h
+    if(i==1):
+                print("X | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+    if(i==2):
+                print("- | X | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+    if(i==3):
+                print("- | - | X")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+    if(i==4):
+                print("- | - | -")
+                print("---------")
+                print("X | - | -")
+                print("---------")
+                print("- | - | -")
+    if(i==5):
+                print("- | - | -")
+                print("---------")
+                print("- | X | -")
+                print("---------")
+                print("- | - | -")
+    if(i==6):
+                print("- | - | -")
+                print("---------")
+                print("- | - | X")
+                print("---------")
+                print("- | - | -")
+    if(i==7):
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("X | - | -")
+    if(i==8):
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | X | -")
+    if(i==9):
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | X")
+elif(turnorder==2):
+    print("last turn O")
+    i=45-a-b-c-d-e-f-g-h
+    if(i==1):
+                print("O | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+    if(i==2):
+                print("- | O | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+    if(i==3):
+                print("- | - | O")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+    if(i==4):
+                print("- | - | -")
+                print("---------")
+                print("O | - | -")
+                print("---------")
+                print("- | - | -")
+    if(i==5):
+                print("- | - | -")
+                print("---------")
+                print("- | O | -")
+                print("---------")
+                print("- | - | -")
+    if(i==6):
+                print("- | - | -")
+                print("---------")
+                print("- | - | O")
+                print("---------")
+                print("- | - | -")
+    if(i==7):
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("O | - | -")
+    if(i==8):
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | O | -")
+    if(i==9):
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | O")
