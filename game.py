@@ -1,9 +1,11 @@
-
+import numpy as np
 # Online Python compiler (interpreter) to run Python online.
 # Write Python 3 code in this online editor and run it.
 turnorder=int(input("which player should go first X or O type 1 for X and 2 for O: "))
-Oturns=[0,0,0,0,0];
-Xtruns=[0,0,0,0,0];
+
+matrixAns_np=np.array([[0, 0, 0],
+                       [0, 0, 0],
+                       [0, 0, 0]])
 i=0
 a=0
 g=0
@@ -1995,12 +1997,313 @@ elif(turnorder==2):
                 print("---------")
                 print("- | - | O")
 if(turnorder==2):
+  Oturns=[0,0,0,0,0]
+  Xtruns=[0,0,0,0]
   Xturns=[a,c,f,h]
   Oturns=[b,d,e,g,i]
-  print(Oturns)
-  print(Xturns)
+  
 if(turnorder==1):
+  Oturns=[0,0,0,0]
+  Xtruns=[0,0,0,0,0]
   Xturns=[a,c,f,h,i]
   Oturns=[b,d,e,g]  
-  print(Oturns)
-  print(Xturns)
+if(a==1):
+  matrix_np = np.array([[1, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(a==2):
+  matrix_np = np.array([[0, 1, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(a==3):
+  matrix_np = np.array([[0, 0, 1],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(a==4):
+  matrix_np = np.array([[0, 0, 0],
+                        [1, 0, 0],
+                        [0, 0, 0]])
+if(a==5):
+  matrix_np = np.array([[0, 0, 0],
+                        [0, 1, 0],
+                        [0, 0, 0]])
+if(a==6):
+  matrix_np = np.array([[0, 0, 0],
+                        [0, 0, 1],
+                        [0, 0, 0]])
+if(a==7):
+  matrix_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [1, 0, 0]])
+if(a==8):
+  matrix_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 1, 0]])
+if(a==9):
+  matrix_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 1]])
+if(b==1):
+  matrixA_np = np.array([[2, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(b==2):
+  matrixA_np = np.array([[0, 2, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(b==3):
+  matrixA_np = np.array([[0, 0, 2],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(b==4):
+  matrixA_np = np.array([[0, 0, 0],
+                        [2, 0, 0],
+                        [0, 0, 0]])
+if(b==5):
+  matrixA_np = np.array([[0, 0, 0],
+                        [0, 2, 0],
+                        [0, 0, 0]])
+if(b==6):
+  matrixA_np = np.array([[0, 0, 0],
+                        [0, 0, 2],
+                        [0, 0, 0]])
+if(b==7):
+  matrixA_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [2, 0, 0]])
+if(b==8):
+  matrixA_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 2, 0]])
+if(b==9):
+  matrixA_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 2]])
+if(c==1):
+  matrixB_np = np.array([[1, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(c==2):
+  matrixB_np = np.array([[0, 1, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(c==3):
+  matrixB_np = np.array([[0, 0, 1],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(c==4):
+  matrixB_np = np.array([[0, 0, 0],
+                        [1, 0, 0],
+                        [0, 0, 0]])
+if(c==5):
+  matrixB_np = np.array([[0, 0, 0],
+                        [0, 1, 0],
+                        [0, 0, 0]])
+if(c==6):
+  matrixB_np = np.array([[0, 0, 0],
+                        [0, 0, 1],
+                        [0, 0, 0]])
+if(c==7):
+  matrixB_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [1, 0, 0]])
+if(c==8):
+  matrixB_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 1, 0]])
+if(c==9):
+  matrixB_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 1]])
+if(d==1):
+  matrixC_np = np.array([[2, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(d==2):
+  matrixC_np = np.array([[0, 2, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(d==3):
+  matrixC_np = np.array([[0, 0, 2],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(d==4):
+  matrixC_np = np.array([[0, 0, 0],
+                        [2, 0, 0],
+                        [0, 0, 0]])
+if(d==5):
+  matrixC_np = np.array([[0, 0, 0],
+                        [0, 2, 0],
+                        [0, 0, 0]])
+if(d==6):
+  matrixC_np = np.array([[0, 0, 0],
+                        [0, 0, 2],
+                        [0, 0, 0]])
+if(d==7):
+  matrixC_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [2, 0, 0]])
+if(d==8):
+  matrixC_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 2, 0]])
+if(d==9):
+  matrixC_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 2]])
+if(e==1):
+  matrixD_np = np.array([[2, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(e==2):
+  matrixD_np = np.array([[0, 2, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(e==3):
+  matrixD_np = np.array([[0, 0, 2],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(e==4):
+  matrixD_np = np.array([[0, 0, 0],
+                        [2, 0, 0],
+                        [0, 0, 0]])
+if(e==5):
+  matrixD_np = np.array([[0, 0, 0],
+                        [0, 2, 0],
+                        [0, 0, 0]])
+if(e==6):
+  matrixD_np = np.array([[0, 0, 0],
+                        [0, 0, 2],
+                        [0, 0, 0]])
+if(e==7):
+  matrixD_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [2, 0, 0]])
+if(e==8):
+  matrixD_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 2, 0]])
+if(e==9):
+  matrixD_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 2]])
+if(f==1):
+  matrixE_np = np.array([[1, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(f==2):
+  matrixE_np = np.array([[0, 1, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(f==3):
+  matrixE_np = np.array([[0, 0, 1],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(f==4):
+  matrixE_np = np.array([[0, 0, 0],
+                        [1, 0, 0],
+                        [0, 0, 0]])
+if(f==5):
+  matrixE_np = np.array([[0, 0, 0],
+                        [0, 1, 0],
+                        [0, 0, 0]])
+if(f==6):
+  matrixE_np = np.array([[0, 0, 0],
+                        [0, 0, 1],
+                        [0, 0, 0]])
+if(f==7):
+  matrixE_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [1, 0, 0]])
+if(f==8):
+  matrixE_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 1, 0]])
+if(f==9):
+  matrixE_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 1]])
+if(h==1):
+  matrixF_np = np.array([[1, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(h==2):
+  matrixF_np = np.array([[0, 1, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(h==3):
+  matrixF_np = np.array([[0, 0, 1],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(h==4):
+  matrixF_np = np.array([[0, 0, 0],
+                        [1, 0, 0],
+                        [0, 0, 0]])
+if(h==5):
+  matrixF_np = np.array([[0, 0, 0],
+                        [0, 1, 0],
+                        [0, 0, 0]])
+if(h==6):
+  matrixF_np = np.array([[0, 0, 0],
+                        [0, 0, 1],
+                        [0, 0, 0]])
+if(h==7):
+  matrixF_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [1, 0, 0]])
+if(h==8):
+  matrixF_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 1, 0]])
+if(h==9):
+  matrixF_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 1]])
+if(g==1):
+  matrixG_np = np.array([[2, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(g==2):
+  matrixG_np = np.array([[0, 2, 0],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(g==3):
+  matrixG_np = np.array([[0, 0, 2],
+                        [0, 0, 0],
+                        [0, 0, 0]])
+if(g==4):
+  matrixG_np = np.array([[0, 0, 0],
+                        [2, 0, 0],
+                        [0, 0, 0]])
+if(g==5):
+  matrixG_np = np.array([[0, 0, 0],
+                        [0, 2, 0],
+                        [0, 0, 0]])
+if(g==6):
+  matrixG_np = np.array([[0, 0, 0],
+                        [0, 0, 2],
+                        [0, 0, 0]])
+if(g==7):
+  matrixG_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [2, 0, 0]])
+if(g==8):
+  matrixG_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 2, 0]])
+if(g==9):
+  matrixG_np = np.array([[0, 0, 0],
+                        [0, 0, 0],
+                        [0, 0, 2]])
+
+matrixAns_np=matrix_np+matrixA_np+matrixC_np+matrixB_np+matrixE_np+matrixF_np+matrixG_np+matrixD_np
+target_value=0
+indices = np.where(matrixAns_np == target_value)
+
+if indices[0].size > 0:  # Check if any element was found
+    for r_idx, c_idx in zip(indices[0], indices[1]):
+        matrixAns_np[r_idx,c_idx]=turnorder
+else:
+    print(f"Value {target_value} not found in the matrix.")
+
+
