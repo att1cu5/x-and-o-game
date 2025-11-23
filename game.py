@@ -2,6 +2,8 @@
 # Online Python compiler (interpreter) to run Python online.
 # Write Python 3 code in this online editor and run it.
 turnorder=int(input("which player should go first X or O type 1 for X and 2 for O: "))
+Oturns=[0,0,0,0,0];
+Xtruns=[0,0,0,0,0];
 i=0
 a=0
 g=0
@@ -1992,3 +1994,13 @@ elif(turnorder==2):
                 print("- | - | -")
                 print("---------")
                 print("- | - | O")
+if(turnorder==2):
+  Xturns=[a,c,f,h]
+  Oturns=[b,d,e,g,i]
+  print(Oturns)
+  print(Xturns)
+if(turnorder==1):
+  Xturns=[a,c,f,h,i]
+  Oturns=[b,d,e,g]  
+  print(Oturns)
+  print(Xturns)
