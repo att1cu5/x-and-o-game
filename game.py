@@ -2,6 +2,8 @@
 # Write Python 3 code in this online editor and run it.
 turnorder=int(input("which player should go first X or O type 1 for X and 2 for O: "))
 a=0
+g=0
+h=0
 b=0
 c=0
 d=0
