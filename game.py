@@ -1408,3 +1408,469 @@ if(userone==8 and usertwo==9):
                 print("- | - | -")
                 print("---------")
                 print("- | X | O")
+usertwo=0
+userone=0
+while(1==1):
+    if(turnorder==1):
+        while(1==1):
+            print("x turns")
+            userone=int(input())
+    
+            if(userone==usertwo or usertwo>9 or usertwo>0 or userone==d or userone==c or userone==a or userone==b or usertwo==f or usertwo==e):
+                
+                print("X pick another number")
+                
+            if(userone!=usertwo and userone!=a and userone!=b and userone!=d and userone!=c and userone!=e and userone!=f):    
+                turnorder=2
+                break
+      
+    elif(turnorder==2):
+        while(1==1):
+            print("o turns")
+            usertwo=int(input())
+    
+            if(userone==usertwo or usertwo>9 or usertwo>0 or usertwo==b or usertwo==a or usertwo==c or usertwo==d or usertwo==f or usertwo==e):
+                print("O pick another number")
+                
+
+    
+            if(userone!=usertwo and usertwo!=a and usertwo!=b and usertwo!=d and usertwo!=c and usertwo!=e and usertwo!=f):
+                turnorder=1
+                break
+    if(userone!=usertwo and userone!=0 and usertwo!=0):  
+            g=usertwo
+            h=userone
+            break
+  
+if(userone==1 and usertwo==2):
+                print("X | O | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+if(userone==2 and usertwo==1):
+                print("O | X | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+if(userone==1 and usertwo==3):
+                print("X | - | O")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+if(userone==3 and usertwo==1):
+                print("O | - | X")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+if(userone==2 and usertwo==3):
+                print("- | X | O")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+if(userone==3 and usertwo==2):
+                print("- | O | X")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+if(userone==4 and usertwo==2):
+                print("- | O | -")
+                print("---------")
+                print("X | - | -")
+                print("---------")
+                print("- | - | -")
+if(userone==2 and usertwo==4):
+                print("- | X | -")
+                print("---------")
+                print("O | - | -")
+                print("---------")
+                print("- | - | -")
+if(userone==4 and usertwo==3):
+                print("- | - | O")
+                print("---------")
+                print("X | - | -")
+                print("---------")
+                print("- | - | -")
+if(userone==3 and usertwo==4):
+                print("- | - | X")
+                print("---------")
+                print("O | - | -")
+                print("---------")
+                print("- | - | -")
+if(userone==4 and usertwo==1):
+                print("O | - | -")
+                print("---------")
+                print("X | - | -")
+                print("---------")
+                print("- | - | -")
+if(userone==1 and usertwo==4):
+                print("X | - | -")
+                print("---------")
+                print("O | - | -")
+                print("---------")
+                print("- | - | -")
+if(userone==5 and usertwo==1):
+                print("O | - | -")
+                print("---------")
+                print("- | X | -")
+                print("---------")
+                print("- | - | -")
+if(userone==1 and usertwo==5):
+                print("X | - | -")
+                print("---------")
+                print("- | O | -")
+                print("---------")
+                print("- | - | -")
+if(userone==5 and usertwo==2):
+                print("- | O | -")
+                print("---------")
+                print("- | X | -")
+                print("---------")
+                print("- | - | -")
+if(userone==2 and usertwo==5):
+                print("- | X | -")
+                print("---------")
+                print("- | O | -")
+                print("---------")
+                print("- | - | -")
+if(userone==5 and usertwo==3):
+                print("- | - | O")
+                print("---------")
+                print("- | X | -")
+                print("---------")
+                print("- | - | -")
+if(userone==3 and usertwo==5):
+                print("- | - | X")
+                print("---------")
+                print("- | O | -")
+                print("---------")
+                print("- | - | -")
+if(userone==5 and usertwo==4):
+                print("- | - | -")
+                print("---------")
+                print("O | X | -")
+                print("---------")
+                print("- | - | -")
+if(userone==4 and usertwo==5):
+                print("- | - | -")
+                print("---------")
+                print("X | O | -")
+                print("---------")
+                print("- | - | -")
+if(userone==6 and usertwo==1):
+                print("O | - | -")
+                print("---------")
+                print("- | - | X")
+                print("---------")
+                print("- | - | -")
+if(userone==1 and usertwo==6):
+                print("X | - | -")
+                print("---------")
+                print("- | - | O")
+                print("---------")
+                print("- | - | -")
+if(userone==6 and usertwo==2):
+                print("- | O | -")
+                print("---------")
+                print("- | - | X")
+                print("---------")
+                print("- | - | -")
+if(userone==2 and usertwo==6):
+                print("- | X | -")
+                print("---------")
+                print("- | - | O")
+                print("---------")
+                print("- | - | -")
+if(userone==6 and usertwo==3):
+                print("- | - | O")
+                print("---------")
+                print("- | - | X")
+                print("---------")
+                print("- | - | -")
+if(userone==3 and usertwo==6):
+                print("- | - | X")
+                print("---------")
+                print("- | - | O")
+                print("---------")
+                print("- | - | -")
+if(userone==6 and usertwo==4):
+                print("- | - | -")
+                print("---------")
+                print("O | - | X")
+                print("---------")
+                print("- | - | -")
+if(userone==4 and usertwo==6):
+                print("- | - | -")
+                print("---------")
+                print("X | - | O")
+                print("---------")
+                print("- | - | -")
+if(userone==6 and usertwo==5):
+                print("- | - | -")
+                print("---------")
+                print("- | O | X")
+                print("---------")
+                print("- | - | -")
+if(userone==5 and usertwo==6):
+                print("- | - | -")
+                print("---------")
+                print("- | X | O")
+                print("---------")
+                print("- | - | -")
+if(userone==7 and usertwo==1):
+                print("O | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("X | - | -")
+if(userone==1 and usertwo==7):
+                print("X | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("O | - | -")
+if(userone==7 and usertwo==2):
+                print("- | O | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("X | - | -")
+if(userone==2 and usertwo==7):
+                print("- | X | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("O | - | -")
+if(userone==7 and usertwo==3):
+                print("- | - | O")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("X | - | -")
+if(userone==3 and usertwo==7):
+                print("- | - | X")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("O | - | -")
+if(userone==7 and usertwo==4):
+                print("- | - | -")
+                print("---------")
+                print("O | - | -")
+                print("---------")
+                print("X | - | -")
+if(userone==4 and usertwo==7):
+                print("- | - | -")
+                print("---------")
+                print("X | - | -")
+                print("---------")
+                print("O | - | -")
+if(userone==7 and usertwo==5):
+                print("- | - | -")
+                print("---------")
+                print("- | O | -")
+                print("---------")
+                print("X | - | -")
+if(userone==5 and usertwo==7):
+                print("- | - | -")
+                print("---------")
+                print("- | X | -")
+                print("---------")
+                print("O | - | -")
+if(userone==7 and usertwo==6):
+                print("- | - | -")
+                print("---------")
+                print("- | - | O")
+                print("---------")
+                print("X | - | -")
+if(userone==6 and usertwo==7):
+                print("- | - | -")
+                print("---------")
+                print("- | - | X")
+                print("---------")
+                print("O | - | -")
+if(userone==8 and usertwo==1):
+                print("O | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | O | -")
+if(userone==1 and usertwo==8):
+                print("X | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | O | -")
+if(userone==8 and usertwo==2):
+                print("- | O | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | X | -")
+if(userone==2 and usertwo==8):
+                print("- | X | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | O | -")
+if(userone==8 and usertwo==3):
+                print("- | - | O")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | X | -")
+if(userone==3 and usertwo==8):
+                print("- | - | X")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | O | -")
+if(userone==8 and usertwo==4):
+                print("- | - | -")
+                print("---------")
+                print("O | - | -")
+                print("---------")
+                print("- | X | -")
+if(userone==4 and usertwo==8):
+                print("- | - | -")
+                print("---------")
+                print("X | - | -")
+                print("---------")
+                print("- | O | -")
+if(userone==8 and usertwo==5):
+                print("- | - | -")
+                print("---------")
+                print("- | O | -")
+                print("---------")
+                print("- | X | -")
+if(userone==5 and usertwo==8):
+                print("- | - | -")
+                print("---------")
+                print("- | X | -")
+                print("---------")
+                print("- | O | -")
+if(userone==8 and usertwo==6):
+                print("- | - | -")
+                print("---------")
+                print("- | - | O")
+                print("---------")
+                print("- | X | -")
+if(userone==6 and usertwo==8):
+                print("- | - | -")
+                print("---------")
+                print("- | - | X")
+                print("---------")
+                print("- | O | -")
+if(userone==8 and usertwo==7):
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("O | X | -")
+if(userone==7 and usertwo==8):
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("X | O | -")
+if(userone==9 and usertwo==1):
+                print("O | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | X")
+if(userone==1 and usertwo==9):
+                print("X | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | O")
+if(userone==9 and usertwo==2):
+                print("- | O | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | X")
+if(userone==2 and usertwo==9):
+                print("- | X | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | O")
+if(userone==9 and usertwo==3):
+                print("- | - | O")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | X")
+if(userone==3 and usertwo==9):
+                print("- | - | X")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | - | O")
+if(userone==9 and usertwo==4):
+                print("- | - | -")
+                print("---------")
+                print("O | - | -")
+                print("---------")
+                print("- | - | X")
+if(userone==4 and usertwo==9):
+                print("- | - | -")
+                print("---------")
+                print("X | - | -")
+                print("---------")
+                print("- | - | O")
+if(userone==9 and usertwo==5):
+                print("- | - | -")
+                print("---------")
+                print("- | O | -")
+                print("---------")
+                print("- | - | X")
+if(userone==5 and usertwo==9):
+                print("- | - | -")
+                print("---------")
+                print("- | X | -")
+                print("---------")
+                print("- | - | O")
+if(userone==9 and usertwo==6):
+                print("- | - | -")
+                print("---------")
+                print("- | - | O")
+                print("---------")
+                print("- | - | X")
+if(userone==6 and usertwo==9):
+                print("- | - | -")
+                print("---------")
+                print("- | - | X")
+                print("---------")
+                print("- | - | O")
+if(userone==9 and usertwo==7):
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("O | - | X")
+if(userone==7 and usertwo==9):
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("X | - | O")
+if(userone==9 and usertwo==8):
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | O | X")
+if(userone==8 and usertwo==9):
+                print("- | - | -")
+                print("---------")
+                print("- | - | -")
+                print("---------")
+                print("- | X | O")
