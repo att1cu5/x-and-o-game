@@ -21,8 +21,8 @@ while(1==1):
         if(userone!=usertwo):    
             turnorder=2
             break
-  
-    if(turnorder==2):
+   
+  elif(turnorder==2):
       while(1==1):
       
         print("o turn")
@@ -34,7 +34,7 @@ while(1==1):
         if(userone!=usertwo):  
             turnorder=1
             break
-    if(userone!=usertwo and userone!=0 and usertwo!=0):  
+  if(userone!=usertwo and userone!=0 and usertwo!=0):  
             a=userone
             b=usertwo
 
@@ -492,7 +492,7 @@ while(1==1):
                 turnorder=2
                 break
 
-    if(turnorder==2):
+    elif(turnorder==2):
         while(1==1):
             print("o turns")
             usertwo=int(input())
@@ -958,7 +958,7 @@ while(1==1):
                 turnorder=2
                 break
       
-    if(turnorder==2):
+    elif(turnorder==2):
         while(1==1):
             print("o turns")
             usertwo=int(input())
@@ -971,7 +971,7 @@ while(1==1):
             if(userone!=usertwo and usertwo!=a and usertwo!=b and usertwo!=d and usertwo!=c):
                 turnorder=1
                 break
-        if(userone!=usertwo and userone!=0 and usertwo!=0):  
+    if(userone!=usertwo and userone!=0 and usertwo!=0):  
             e=usertwo
             f=userone
             break
