@@ -2305,5 +2305,33 @@ if indices[0].size > 0:  # Check if any element was found
         matrixAns_np[r_idx,c_idx]=turnorder
 else:
     print(f"Value {target_value} not found in the matrix.")
-
-
+print()
+for rowsofm in range(0,2):
+    if(matrixAns_np[rowsofm,0]==1):
+        print(" X |",end='')
+    elif(matrixAns_np[rowsofm,0]==2):
+        print(" O |",end='')
+if(matrixAns_np[2,0]==1):
+        print(" X ")
+elif(matrixAns_np[2,0]==2):
+        print(" O ")
+print("-----------")
+for rowsofma in range(0,2):
+    if(matrixAns_np[rowsofma,1]==1):
+        print(" X |",end='')
+    elif(matrixAns_np[rowsofma,1]==2):
+        print(" O |",end='')
+if(matrixAns_np[2,1]==1):
+        print(" X ")
+elif(matrixAns_np[2,1]==2):
+        print(" O ")
+print("-----------")        
+for rowsofmb in range(0,2):
+    if(matrixAns_np[rowsofmb,2]==1):
+        print(" X |",end='')
+    elif(matrixAns_np[rowsofmb,2]==2):
+        print(" O |",end='')
+if(matrixAns_np[2,2]==1):
+        print(" X ")
+elif(matrixAns_np[2,2]==2):
+        print(" O ")
