@@ -1,9 +1,10 @@
 import numpy as np
     # Online Python compiler (interpreter) to run Python online.
     # Write Python 3 code in this online editor and run it.
+scoreO=0
+scoreX=0
 while(1==1):
-    scoreO=0
-    scoreX=0
+
     turnorder=int(input("which player should go first X or O type 1 for X and 2 for O: "))
     
     matrixAns_np=np.array([[0, 0, 0],
@@ -2422,5 +2423,5 @@ while(1==1):
                 scoreX+=1
     print()
     print("X points: ",scoreX)
-    print("Y points: ",scoreY)
+    print("O points: ",scoreO)
     
